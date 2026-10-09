@@ -1,0 +1,7 @@
+SimpSOM==2.0.2
+kagglehub
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
