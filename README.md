@@ -75,7 +75,7 @@ The same pipeline is applied to two real-world datasets of very different size:
 The **U-matrix** (left) shows the average distance between each neuron and its neighbors: light areas are groups of similar customers, dark bands are natural borders between groups. On the right, the map is split into five regions; dot size shows how many customers sit on each neuron.
 
 <p align="center">
-  <img src="images/mall_som_map.png" width="760" alt="Mall customers SOM map">
+  <img src="images/mall_som.png" width="760" alt="Mall customers SOM map">
 </p>
 
 Projected back onto the original features, the segments separate the income – spending space (large markers are segment means):
@@ -102,7 +102,7 @@ Projected back onto the original features, the segments separate the income – 
 ## 💳 Results: Credit card users
 
 <p align="center">
-  <img src="images/credit_som_map.png" width="760" alt="Credit card users SOM map">
+  <img src="images/credit_som.png" width="760" alt="Credit card users SOM map">
 </p>
 
 <table>
@@ -111,7 +111,7 @@ Projected back onto the original features, the segments separate the income – 
 
 **Segment profiles.** Each cell shows the segment mean; color shows how far it is from the overall average.
 
-<img src="images/credit_profiles.png" width="100%" alt="Credit card segment profiles">
+<img src="images/credit_heatmap.png" width="100%" alt="Credit card segment profiles">
 
 </td>
 <td width="50%" valign="top">
@@ -183,7 +183,7 @@ som-customer-segmentation/
 
 ---
 
-## 👩‍💻 Developer
+## 💻 Developer
 
 <table>
 <tr>
